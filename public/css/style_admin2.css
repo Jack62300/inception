@@ -1,0 +1,123 @@
+body{
+    background-image: url(../images/bg_douane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue{
+    background-color: lightseagreen;
+    color:black;
+}
+.red{
+    background-color:darkred;
+    color: white;
+}
+.green{
+    background-color:darkgreen;
+    color: black;
+}
+.ros{
+    padding: 10px;
+    margin:5px;
+}
+.back{
+    -webkit-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+margin-bottom: 15px;
+}
+.obj{
+    -webkit-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+margin-bottom: 15px;
+}
+.rp{
+    -webkit-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    padding: 5px;
+    text-align: center;
+}
+.autre{
+    -webkit-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    box-shadow: -7px 9px 25px -2px rgba(0,0,0,0.75);
+    
+    text-align:center;
+
+}
+.button-action{
+    float:right;
+}
+#accordion
+{
+    background-color: rgba(0,0,0,0.5);
+
+   position: absolute;
+   top:0;
+   left:0;
+   padding: 15px;
+   width: 100%;
+   height: 100%;
+   padding-top: 50px;
+}
+.card-header{
+    font-size: 1.2em;
+    background-color: #dcdcdc;
+    border: solid 2px black;
+    border-radius: 0;
+}
+.card-header a{
+    color: black;
+    text-align:center;
+}
+.top{
+    border-radius:0;
+}
+.button-clic{
+    font-size:1.5em;
+}
+.formulaire{
+    background: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:5px;
+    padding: 15px;
+    margin-top: 19%;
+}
+.formulaire input{
+    width: 550px;
+}
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.formulaire img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.formulaire form{
+    color: white;
+}
+.nben{
+  
+}
+.table{
+    background-color: #333 !important;
+    color:white !important;
+
+}
+.top_table{
+    background-color: #dcdcdc !important;
+    color: black !important;
+}
+.tabletwo{
+    margin-top: 100px;
+}
+.tabletwo tr, th, td{
+    border: solid 1px black !important;
+}
